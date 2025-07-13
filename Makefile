@@ -4,21 +4,21 @@
 # 1 = enable
 
 # ---- COMPILER/LINKER OPTIONS ----
-ENABLE_CLANG                  ?= 0
+ENABLE_CLANG                  ?= 1
 ENABLE_SWD                    ?= 1
-ENABLE_OVERLAY                ?= 0
+ENABLE_OVERLAY                ?= 1
 ENABLE_LTO                    ?= 1
 
 # ---- STOCK QUANSHENG FERATURES ----
 ENABLE_UART                   ?= 1
-ENABLE_AIRCOPY                ?= 0
+ENABLE_AIRCOPY                ?= 1
 ENABLE_FMRADIO                = 0
-ENABLE_NOAA                   ?= 0
-ENABLE_VOICE                  ?= 0
+ENABLE_NOAA                   ?= 1
+ENABLE_VOICE                  ?= 1
 ENABLE_VOX                    ?= 1
-ENABLE_ALARM                  ?= 0
-ENABLE_TX1750                 ?= 0
-ENABLE_PWRON_PASSWORD         ?= 0
+ENABLE_ALARM                  ?= 1
+ENABLE_TX1750                 ?= 1
+ENABLE_PWRON_PASSWORD         ?= 1
 ENABLE_DTMF_CALLING           ?= 1
 ENABLE_FLASHLIGHT             ?= 1
 ENABLE_BOOTLOADER			 ?= 0
@@ -26,12 +26,12 @@ ENABLE_BOOTLOADER			 ?= 0
 ENABLE_BIG_FREQ               ?= 1
 ENABLE_KEEP_MEM_NAME          ?= 1
 ENABLE_WIDE_RX                ?= 1
-ENABLE_TX_WHEN_AM             ?= 0
-ENABLE_F_CAL_MENU             ?= 0
-ENABLE_CTCSS_TAIL_PHASE_SHIFT ?= 0
-ENABLE_BOOT_BEEPS             ?= 0
-ENABLE_SHOW_CHARGE_LEVEL      ?= 0
-ENABLE_REVERSE_BAT_SYMBOL     ?= 0
+ENABLE_TX_WHEN_AM             ?= 1
+ENABLE_F_CAL_MENU             ?= 1
+ENABLE_CTCSS_TAIL_PHASE_SHIFT ?= 1
+ENABLE_BOOT_BEEPS             ?= 1
+ENABLE_SHOW_CHARGE_LEVEL      ?= 1
+ENABLE_REVERSE_BAT_SYMBOL     ?= 1
 ENABLE_NO_CODE_SCAN_TIMEOUT   ?= 1
 ENABLE_AM_FIX                 ?= 1
 ENABLE_SQUELCH_MORE_SENSITIVE ?= 1
